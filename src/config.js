@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "petrocknft.net";
+const description = "your pet rocks are a unique collection of 10,000 nfts that are a combination of 2d and 3d art, they also double as your ticket to all our buy back drawings where you can sell your pet rock back to us for the price of a new tesla or other prizes.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "PR",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://www.petrocknft.net",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x8539fD43FbD085086f2dc741f21a94291bF9F7fF",
       share: 100,
     },
   ],
@@ -45,8 +45,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 
